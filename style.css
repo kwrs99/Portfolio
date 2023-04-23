@@ -101,24 +101,19 @@ p {
 }
 
 @media (max-width: 500px) {
+  h1 {
+    font-size: 20px;
+  }
   h2 {
     font-size: 18px;
   }
   p {
     font-size: 14px;
+    text-align: center;
   }
-  #launch-yoga,
-  #launch-weather,
-  #launch-yogurt {
+  .project-link {
     display: block;
     text-align: center;
-    margin: 0 auto;
-  }
-  img {
-    display: none;
-  }
-  .img-fluid {
-    max-width: 100%;
-    height: auto;
+    margin: 0 20px;
   }
 }
